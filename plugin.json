@@ -1,0 +1,10 @@
+{
+  "id": "practice_journal",
+  "name": "Practice Journal",
+  "version": "1.0.0",
+  "private": false,
+  "nav": { "label": "Practice", "screen": "practice" },
+  "screen": "screen.html",
+  "script": "screen.js",
+  "routes": "routes.py"
+}
