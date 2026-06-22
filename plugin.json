@@ -3,8 +3,14 @@
   "name": "Practice Journal",
   "version": "1.0.0",
   "private": false,
-  "nav": { "label": "Practice", "screen": "practice" },
+  "nav": {
+    "label": "Practice",
+    "screen": "practice"
+  },
   "screen": "screen.html",
   "script": "screen.js",
-  "routes": "routes.py"
+  "routes": "routes.py",
+  "category": "practice",
+  "description": "Track practice sessions and progress over time.",
+  "icon": "assets/thumb.svg"
 }
