@@ -1,6 +1,6 @@
 # Slopsmith Plugin: Practice Journal
 
-A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that automatically tracks your practice sessions and shows progress over time.
+A plugin for [Slopsmith](https://github.com/got-feedback/feedBack) that automatically tracks your practice sessions and shows progress over time.
 
 ## Features
 
@@ -19,7 +19,7 @@ A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that automati
 
 ```bash
 cd /path/to/slopsmith/plugins
-git clone https://github.com/got-feedback/feedback-plugin-practice.git practice_journal
+git clone https://github.com/got-feedback/feedBack-plugin-practice.git practice_journal
 docker compose restart
 ```
 
