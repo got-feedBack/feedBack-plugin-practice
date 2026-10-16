@@ -1,6 +1,6 @@
-# Slopsmith Plugin: Practice Journal
+# feedBack Plugin: Practice Journal
 
-A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that automatically tracks your practice sessions and shows progress over time.
+A plugin for [feedBack](https://github.com/got-feedback/feedBack) that automatically tracks your practice sessions and shows progress over time.
 
 ## Features
 
@@ -18,16 +18,18 @@ A plugin for [Slopsmith](https://github.com/got-feedback/feedback) that automati
 ## Installation
 
 ```bash
-cd /path/to/slopsmith/plugins
+cd /path/to/feedBack/plugins
 git clone https://github.com/got-feedback/feedback-plugin-practice.git practice_journal
 docker compose restart
 ```
 
-The "Practice" link will appear in the navigation bar.
+Practice Journal is also bundled with the feedBack Desktop app.
+
+To open the dashboard, open **Plugins** in the sidebar and click **Practice Journal**.
 
 ## How It Works
 
-The plugin hooks into the Slopsmith player. When you open a song, a practice session starts automatically. When you leave the player (navigate away, close the song, or close the browser), the session is saved with:
+The plugin hooks into the feedBack player. When you open a song, a practice session starts automatically. When you leave the player (navigate away, close the song, or close the browser), the session is saved with:
 
 - Song details (title, artist, arrangement)
 - Duration
